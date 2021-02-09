@@ -2,7 +2,14 @@
 
 This is the TensorFlow implementation of KDD submission.
 
+## Dataset
 
+### Individual
+- Download data and save to (*dataset/ECG/*), which is named ECG5000 on the [UCR archive](http://www.cs.ucr.edu/~eamonn/time_series_data/).
+
+### Group
+- Download data and convert to .tfrecord files for TensorFlow
+  (*./generate_tfrecords.sh*)
 
 ## Overview
 
